@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller 8 - Twitter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <div class="container">
+        <form class="tweet-form">
+            <div class="form-group">
+                <label for="comentarios">Publica lo que sientes</label>
+                <textarea name="comentarios" id="comentarios" rows="5" placeholder="Escribe lo que quieras..."></textarea>
+            </div>
+            <button type="button" onclick="postTwitter()">Enviar</button>
+        </form>
+        <div id="posts" class="posts"></div>
+    </div>
+    <script src="twitter.js"></script>
+</body>
+</html>
